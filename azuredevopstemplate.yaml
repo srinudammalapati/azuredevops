@@ -30,7 +30,7 @@ stages:
             - task: Maven@3
               inputs:
                 mavenPomFile: 'pom.xml'
-                goal: "${{parameteres.goal}}"
+                goal: "${{parameters.goal}}"
                 publishJUnitResults: true
                 testResultsFiles: '**/surefire-reports/TEST-*.xml'
                 jdkVersionOption: "${{parameters.jdkVersionoption}}"
