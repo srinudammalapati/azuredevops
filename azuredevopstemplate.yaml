@@ -18,10 +18,10 @@ parameters:
       - '1.8'
   - name: jdkdirectory
     type: string
-    default: /usr/lib/jvm/java-openjdk-11-amd64/    
+    default: /usr/lib/jvm/java-11-openjdk-amd64/    
     values: 
-      - /usr/lib/jvm/java-openjdk-11-amd64/ 
-      - /usr/lib/jvm/java-openjdk-8-amd64/ 
+      - /usr/lib/jvm/java-11-openjdk-amd64/ 
+      - /usr/lib/jvm/java-8-openjdk-amd64/ 
 stages:
     - stage: build
       jobs:
