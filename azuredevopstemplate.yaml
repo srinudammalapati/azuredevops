@@ -1,5 +1,5 @@
 ---
-parameteres:
+parameters:
   - name: goal
     type: string
     default: package
