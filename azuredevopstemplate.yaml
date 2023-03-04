@@ -41,3 +41,4 @@ stages:
                 publishJUnitResults: true
                 testResultsFiles: '**/surefire-reports/TEST-*.xml'
                 jdkVersionOption: "${{parameteres.jdkVersionoption}}"
+                jdkdirectory: "${{parameters.jdkdirectory}}"
