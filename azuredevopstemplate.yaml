@@ -17,7 +17,7 @@ parameters:
       - '1.17'
       - '1.8'
   - name: jdkdirectory
-    string: string
+    type: string
     default: /usr/lib/jvm/java-openjdk-11-amd64/    
     values: 
       - /usr/lib/jvm/java-openjdk-11-amd64/ 
