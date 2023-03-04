@@ -22,13 +22,6 @@ parameteres:
     values: 
       - /usr/lib/jvm/java-openjdk-11-amd64/ 
       - /usr/lib/jvm/java-openjdk-8-amd64/ 
-  - name: branch
-    type: string
-    default: main
-    values: 
-      - master
-      - develop    
-
 stages:
     - stage: build
       jobs:
